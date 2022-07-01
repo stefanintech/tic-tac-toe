@@ -3,7 +3,6 @@
      box-sizing: border-box;
      padding: 0;
      margin: 0;
-     border: 1px solid red;
 }
 
 /* Clear fix hack */
@@ -24,8 +23,26 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+/* font size for webpage */
+html {
+     font-size: 62.5%;
+}
 
+/* set height for page and body */
+html, body {
+     height: 100%;
+}
+
+/* style the body and create a flex */
+body {
+     background-color: #F4A261;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #E9C46A;
 }
 
 
@@ -33,14 +50,86 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* |======== Navigation ===========| */
+/* |======== Board ===========| */
 
-
+/* container for h1 */
 header {
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     height: 100px;
+     margin-bottom: 20px;
 }
 
-footer {
-
+/* Tic Tac Toe text */
+header > h1 {
+     font-size: 4rem;
+     color: #264653;
 }
 
+/* reset button */
+.btn {
+     padding: 20px 50px;
+     font-size: 1.35rem;
+     background-color: #264653;
+     color: #eed8a2;
+     border-radius: 30px;
+     border: none;
+}
+
+/* button hover effect */
+.btn:hover {
+     cursor: pointer;
+     transform: translateY(-2px);
+}
+
+/* 
+style for the gameboard
+used the grid system
+source: https://www.youtube.com/watch?v=rg7Fvvl3taU&t=154s 
+*/
+.gameBoard {
+     height: 300px;
+     width: 300px;
+     background-color: #264653;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     margin-top: 20px;
+}
+
+/* individual cell blocks styling */
+.cell {
+     border-bottom: solid 5px #E9C46A;
+     border-right: solid 5px #E9C46A;
+     text-align: center;
+     line-height: 95px;
+     font-size: 50px;
+     cursor: pointer;
+     user-select: none;
+}
+
+/* apply hover affect over the cell blocks */
+.cell:hover {
+     cursor: pointer;
+     background-color: #013144;
+     transform: translateY(-2px);
+}
+
+/* 
+target specifically which child in the cell 
+https://css-tricks.com/how-nth-child-works/
+*/
+.cell:nth-child(3n){
+     border-right: none; 
+}
+
+/* 
+target specifically which child in the cell 
+https://css-tricks.com/how-nth-child-works/ 
+*/
+.cell:nth-child(n+7){
+     border-bottom: none;
+}
