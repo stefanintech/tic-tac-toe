@@ -93,17 +93,18 @@ source: https://www.youtube.com/watch?v=rg7Fvvl3taU&t=154s
 .gameBoard {
      height: 300px;
      width: 300px;
-     background-color: #264653;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(3, 1fr);
      margin-top: 20px;
+     grid-gap: 5px;
+     background: #E9C46A;
 }
 
 /* individual cell blocks styling */
 .cell {
-     border-bottom: solid 5px #E9C46A;
-     border-right: solid 5px #E9C46A;
+	
+     background-color: #264653;
      text-align: center;
      line-height: 95px;
      font-size: 50px;
@@ -116,20 +117,4 @@ source: https://www.youtube.com/watch?v=rg7Fvvl3taU&t=154s
      cursor: pointer;
      background-color: #013144;
      transform: translateY(-2px);
-}
-
-/* 
-target specifically which child in the cell 
-https://css-tricks.com/how-nth-child-works/
-*/
-.cell:nth-child(3n){
-     border-right: none; 
-}
-
-/* 
-target specifically which child in the cell 
-https://css-tricks.com/how-nth-child-works/ 
-*/
-.cell:nth-child(n+7){
-     border-bottom: none;
 }
