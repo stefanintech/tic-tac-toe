@@ -119,3 +119,9 @@ source: https://www.youtube.com/watch?v=rg7Fvvl3taU&t=154s
      background-color: #013144;
      transform: translateY(-2px);
 }
+
+
+#result {
+     color:#264653;
+     font-size: 4rem;
+}
