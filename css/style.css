@@ -45,6 +45,10 @@ body {
      color: #E9C46A;
 }
 
+a {
+     text-decoration: none;
+     color: #264653;
+}
 
 /******************************************
 /* LAYOUT
@@ -84,6 +88,24 @@ header > h1 {
 .btn:hover {
      cursor: pointer;
      transform: translateY(-2px);
+}
+
+/* footer */
+footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin-top: 55px;
+}
+
+footer p {
+     font-size: 2em;
+     color: #264653;
+}
+
+footer a:hover {
+     color: white;
 }
 
 /* 
