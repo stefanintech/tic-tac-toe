@@ -63,21 +63,19 @@ header {
      align-items: center;
      flex-direction: column;
      width: 100%;
-     height: 100px;
      margin-bottom: 20px;
 }
 
 /* Tic Tac Toe text */
 header > h1 {
-     font-size: 4rem;
+     font-size: 7rem;
      color: #264653;
 }
 
 /* reset button */
 .btn {
-     margin-top: 2rem;
      padding: 20px 50px;
-     font-size: 1.35rem;
+     font-size: 1.9rem;
      background-color: #264653;
      color: #eed8a2;
      border-radius: 30px;
