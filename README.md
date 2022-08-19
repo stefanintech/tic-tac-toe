@@ -3,12 +3,10 @@
 The goal was to collaborate as a team to create the infamous Tic Tac Toe game.
 
 ## Lessons Learned 💭
-
-Add lessons.
+Implementing OOP concets and working as a team to create a product from start to finish.
 
 ## Optimization ✅
-
-Add optimization
+When we improve the project, we would start the layout with a mobile-first approach, then utilize media queries to accomodate a clean layout for more devices. 
 
 ## Tech Used 💻
 
@@ -18,6 +16,7 @@ Add optimization
 
 ## Made by ⚒️
 - [Amanda](https://twitter.com/abgutmann)
+- [ConstantNnoble](https://github.com/Knoble-Solutions)
 - [Jordan](https://twitter.com/jordanvelos)
-- [constantNnoble](https://github.com/Knoble-Solutions)
+- [Octoshrimpy](https://github.com/octoshrimpy)
 - [Stefan](https://twitter.com/codewithfan)
