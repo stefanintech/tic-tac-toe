@@ -1,4 +1,5 @@
-# <a target="_blank" href="">Tic Tac Toe</a> 👾
+# <a target="_blank" href="https://tictactoebattle.netlify.app/">Tic Tac Toe</a> 👾
+<a href="https://tictactoebattle.netlify.app" target="_blank"><img src="https://github.com/codewithfan/tic-tac-toe/blob/main/img/tictactoe.gif"></a>
 
 The goal was to collaborate as a team to create the infamous Tic Tac Toe game.
 
